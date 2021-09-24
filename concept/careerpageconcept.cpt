@@ -1,0 +1,28 @@
+Created by testinium on 24.09.2021
+
+This is a concept file with following syntax for each concept.
+
+# En aşağıdaki teknasyon başlğı altına scroll yapıp 'Kariyer' butonunun var olduğunu doğrulayın ve tıklayın
+* Scroll to "Career_Button_Page_Down"
+* "Career_Button_Page_Down" if element is not exist go fail "Career button doesnt exist"
+* Wait for "Career_Button_Page_Down" and click
+* Logger -> "Kariyer alanına scroll yapıldı kontrol sağlandı"
+
+# Sayfadaki açıklama kısmını kontrol edin
+* "Explanation_Area_Control" if element is not exist go fail "Explanation area doesnt exist"
+* Logger -> "Açıklama kısmı başarılı kontrol edildi"
+
+# 'Test Otomasyon Mühendisi' pozisyonunun bulunduğunu doğrulayın
+* Scroll to "Test_Automation_App_Control"
+* "Test_Automation_App_Control" if element is not exist go fail "Test automation app doesnt exist"
+* Logger -> "Test otomasyon pozisyonu doğrulandı"
+
+# 'Test Otomasyon Mühendisi' pozisyonuna tıklayın ve başlığı kontol edin
+* Javascript ile tıkla "Test_Automation_Examine_Button"
+* Check page title text "Test Otomasyon Mühendisi - Teknasyon"
+* Logger -> "Test otomasyon ilanına gidildi başlık kontrol edildi"
+
+# Başvuru butonun var olduğunu doğrulayın ve tıklayın
+* "Test_Automation_App_Button" if element is not exist go fail "Test automation app button doest exist"
+* Javascript ile tıkla "Test_Automation_App_Button"
+* Logger -> "Başvuru butonu başarılı kontrol edildi."

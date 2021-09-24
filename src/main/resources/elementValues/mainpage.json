@@ -1,0 +1,16 @@
+[
+  {
+    "key": "Google_Alt_Control",
+    "value": "//img[@alt='Google']",
+    "type": "xpath"
+  },  {
+    "key": "Google_Input_Area",
+    "value": "//input[@role='combobox']",
+    "type": "xpath"
+  },{
+    "key": "Teknasyon_Search_Google_Text",
+    "value": "//h3[.='Teknasyon']",
+    "type": "xpath"
+  }
+
+  ]

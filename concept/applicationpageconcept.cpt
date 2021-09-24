@@ -1,0 +1,44 @@
+Created by testinium on 24.09.2021
+
+This is a concept file with following syntax for each concept.
+
+# Başvuru formunda herhangi bir işlem yapmadan uyarı mesajlarının gelip gelmediğini kontrol ettirin
+* Javascript ile tıkla "App_Page_Blue_Button"
+* "Name_Error_Message" if element is not exist go fail "Name error message doesnt exist"
+* "Email_Error_Message" if element is not exist go fail "Email error message doesnt exist"
+* "JobFile_Error_Message" if element is not exist go fail "Job file error message doesnt exist"
+* "JobLet_Error_Message" if element is not exist go fail "Job let error message doesnt exist"
+* Logger -> "Uyarı mesajları başarı ile kontrol edildi."
+
+# CV ekle butonunun olduğunu kontrol ettirin.
+* "App_Page_Cv_Control_Button" if element is not exist go fail "App page cv upload button doesnt exist"
+* Logger -> "Cv ekle butonu başarı ile kontrol edildi"
+
+# Başvuru formunu doldurun ve özgeçmişinizi yükleyin
+* Write "Test test" to the "App_Page_Name_Surname" and clear area
+* Write "Dmrcnylmz@gmail.com" to the "App_Page_Job_Email" and clear area
+* Scroll to "App_Page_Cv_Control_Button"
+* Upload "cv.pdf" the CV
+* Logger -> "Başvuru formu dolduruldu cv upload edildi."
+
+# Recapthanın olduğunu doğrulayın
+* Scroll to "Job_Let_Checkbox"
+* Is captcha on the page control
+* Logger -> "Recaptcha sayfada bulunduğu kontrol edildi."
+
+# Onay kutularını doldurun ve onay kutusuna tıklayınca uyarı metinlerinin gittiğini doğrulayın.
+* Javascript ile tıkla "Job_Let_Checkbox"
+* Javascript ile tıkla "Job_Different_Position_Checkbox"
+* Javascript ile tıkla "Job_GroupOpportunity_Checkbox"
+* Check recaptcha checbox
+* "Name_Error_Message" if element is exist go fail "Name error message doesnt exist"
+* "Email_Error_Message" if element is exist go fail "Email error message doesnt exist"
+* "JobFile_Error_Message" if element is exist go fail "Job file error message doesnt exist"
+* "JobLet_Error_Message" if element is exist go fail "Job let error message doesnt exist"
+* Logger -> "Onay kutuları check edildi uyarı mesajları kontrol edildi"
+
+# Başvur butonuna tıklayın
+* Javascript ile tıkla "App_Okey_Button"
+* "App_Result_Control_Text" if element is not exist go fail "Application is not success"
+* Logger -> "Test başarı ile sonuçlandı."
+* "5" second wait

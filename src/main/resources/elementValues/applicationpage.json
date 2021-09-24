@@ -1,0 +1,77 @@
+[
+  {
+    "key": "App_Page_Blue_Button",
+    "value": "button > span",
+    "type": "css"
+  },{
+  "key": "App_Page_Cv_Control_Button",
+  "value": ".inputfile-label > span",
+  "type": "css"
+},{
+  "key": "App_Page_Cv_Upload_Button",
+  "value": "jobFile",
+  "type": "id"
+},{
+  "key": "App_Page_Name_Surname",
+  "value": "input#jobNameSurname",
+  "type": "css"
+},{
+  "key": "App_Page_Job_Email",
+  "value": "input#jobEmail",
+  "type": "css"
+},{
+  "key": "Job_File_Input",
+  "value": "jobFile",
+  "type": "id"
+},{
+  "key": "Job_Let_Checkbox",
+  "value": "jobLet",
+  "type": "id"
+},
+  {
+    "key": "Job_Different_Position_Checkbox",
+    "value": "jobDifferentPosition",
+    "type": "id"
+  },
+  {
+    "key": "Job_GroupOpportunity_Checkbox",
+    "value": "jobGroupOpportunity",
+    "type": "id"
+  },
+  {
+    "key": "Captcha_Check_Box",
+    "value": "iframe[title='reCAPTCHA']",
+    "type": "css"
+  },
+  {
+    "key": "Name_Error_Message",
+    "value": "jobNameSurname-error",
+    "type": "id"
+  }, {
+  "key": "Email_Error_Message",
+  "value": "jobEmail-error",
+  "type": "id"
+}, {
+  "key": "JobFile_Error_Message",
+  "value": "jobFile-error",
+  "type": "id"
+},{
+  "key": "JobLet_Error_Message",
+  "value": "jobLet-error",
+  "type": "id"
+},{
+  "key": "Google_Search_Result_Teknasyon",
+  "value": "//div/span[.='teknasyon']",
+  "type": "xpath"
+},
+  {
+    "key": "App_Okey_Button",
+    "value": "button > span",
+    "type": "css"
+  },
+  {
+    "key": "App_Result_Control_Text",
+    "value": "//*[.='Başvurunuz alınmıştır.']",
+    "type": "xpath"
+  }
+]

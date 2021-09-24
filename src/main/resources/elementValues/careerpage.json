@@ -1,0 +1,23 @@
+[{
+  "key": "Career_Button_Page_Down",
+  "value": "//li[@id='menu-item-128']/a",
+  "type": "xpath"
+}, {
+"key": "Explanation_Area_Control",
+"value": "//p[contains(text(),'Kodluyoruz')]",
+"type": "xpath"
+}, {
+"key": "Test_Automation_App_Control",
+"value": "//a[@title=\"Test Otomasyon Mühendisi\"]",
+"type": "xpath"
+},
+{
+"key": "Test_Automation_Examine_Button",
+"value": "//a[@href=\"https://teknasyon.com/job-ads/test-otomasyon-muhendisi/\"]/span",
+"type": "xpath"
+},
+{
+"key": "Test_Automation_App_Button",
+"value": "a[title='Başvur']",
+"type": "css"
+}]

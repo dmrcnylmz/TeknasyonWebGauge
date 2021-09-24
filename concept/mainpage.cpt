@@ -1,0 +1,25 @@
+Created by testinium on 10.01.2021
+
+This is a concept file with following syntax for each concept.
+# www.google.com.tr'yi açın
+* Go to "https://www.google.com/"
+* Logger -> "Google adresine gidildi"
+
+# Google olduğunu doğrulayın
+* Is "Google_Alt_Control" element Visible ? "5"
+* Logger -> "Google olduğu doğrulandı"
+
+# Teknasyon'u Arayın
+* Write "Teknasyon" to the "Google_Input_Area" and clear area
+* Wait for "Google_Search_Result_Teknasyon" and click
+* Logger -> "Teknasyon kelimesi aratıldı"
+
+# teknasyon.com'un listelendiğini doğrulayın.
+* "Teknasyon_Search_Google_Text" if element is not exist go fail "Searched key doesnt exist"
+* Logger -> "Teknasyon başarı ile listelendi"
+
+# Web sitesini açın ve web sitesi başlığını kontrol edin
+* Wait for "Teknasyon_Search_Google_Text" and click
+* Check page title text "Teknasyon"
+* Logger -> "Web sitesi başlığı başarılı olarak kontrol edildi"
+
